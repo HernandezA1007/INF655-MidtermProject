@@ -18,7 +18,6 @@ import Navigation from "./components/Navigation";
 import Checkout from "./components/Checkout";
 import ThankYou from "./components/ThankYou";
 
-// import { CartContext } from "./contexts/CartContext";
 
 /* Template
 function App() {
