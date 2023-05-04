@@ -1,3 +1,20 @@
+# INF655 Midterm Project
+
+I initially created this project with an outdated standard/version of React Router. Leading to have to restructure and update the components.
+
+I created this simple online store built using React utilizing the [FakeStoreAPI](https://fakestoreapi.com/) to fetch product data examples to simulate the full functionality.
+
+The project demonstrates the use of React Hooks, state management, conditional rendering, and dynamic data fetching. 
+
+## Features:
+- Browse products by category
+- Search for products
+- View product details
+- Add products to cart
+- Checkout submission
+
+-------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
