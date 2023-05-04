@@ -1,21 +1,3 @@
-# INF655-Firebase-Auth-CRUD-Assignment
-
-- This project is a continuation of a previous ReactJS shopping cart application and integrating Firebase for data management and implementing CRUD operations.
-
-## Features
-- 
-- 
-- 
-
-> Instructions...
-1. 
-2. 
-3. 
-
-- Can use firebase guide to help build your own <https://firebase.google.com/docs/web/setup>
-
--------------------------------------------------------------------------------------------------
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
