@@ -1,17 +1,18 @@
-# INF655 Midterm Project
+# INF655-Firebase-Auth-CRUD-Assignment
 
-I initially created this project with an outdated standard/version of React Router. Leading to have to restructure and update the components.
+- This project is a continuation of a previous ReactJS shopping cart application and integrating Firebase for data management and implementing CRUD operations.
 
-I created this simple online store built using React utilizing the [FakeStoreAPI](https://fakestoreapi.com/) to fetch product data examples to simulate the full functionality.
+## Features
+- 
+- 
+- 
 
-The project demonstrates the use of React Hooks, state management, conditional rendering, and dynamic data fetching. 
+> Instructions...
+1. 
+2. 
+3. 
 
-## Features:
-- Browse products by category
-- Search for products
-- View product details
-- Add products to cart
-- Checkout submission
+- Can use firebase guide to help build your own <https://firebase.google.com/docs/web/setup>
 
 -------------------------------------------------------------------------------------------------
 

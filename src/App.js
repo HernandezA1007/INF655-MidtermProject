@@ -1,7 +1,7 @@
 // Antonio Hernandez
 // INF655
 // Muvva
-// 3-25-23
+// 4-14-23
 
 //import logo from './logo.svg';
 import './App.css';
@@ -17,6 +17,9 @@ import { fetchProducts } from "./services/api";
 import Navigation from "./components/Navigation";
 import Checkout from "./components/Checkout";
 import ThankYou from "./components/ThankYou";
+// 
+import SignUpForm from "./components/SignUpForm";
+import LogInForm from "./components/LogInForm";
 
 
 /* Template
@@ -104,28 +107,32 @@ const App = () => {
 
 
   return (
-    <Router>
-      <div>
-        <Navigation />
-          <Routes>
-            {/*}
-            <Route path="/" exact component={() => <Home products={products} />} />
-            <Route path="/product/:id" component={() => <ProductDetail product={products[0]} />} />
-            <Route path="/search" component={() => <Search products={products} />} />
-            <Route path="/cart" component={() => <CartPage cartItems={cartItems} />} />
-            */}
-            <Route path="/" element={<Home products={products} addToCart={addToCart} />} />
-            <Route path="/home" element={<Home products={products} addToCart={addToCart} />} />
-            {/*<Route path="/products/:id" element={<ProductDetail products={products} />} /> */}
-            <Route path="/product/:id" element={<ProductDetail addToCart={addToCart} />} />
-            <Route path="/search" element={<Search products={products} addToCart={addToCart} />} />
-            {/* <Route path="/cart" component={() => <CartPage cartItems={cartItems} removeFromCart={removeFromCart} />} /> */}
-            <Route path="/cart" element={<CartPage cartItems={cartItems} removeFromCart={removeFromCart} />} />
-            <Route path="/checkout" element={<Checkout cartItems={cartItems} clearCart={clearCart} />} />
-            <Route path="/thankyou" element={<ThankYou />} />
-          </Routes>
-      </div>
-    </Router>
+
+      <Router>
+        <div>
+          <Navigation />
+            <Routes>
+              {/*}
+              <Route path="/" exact component={() => <Home products={products} />} />
+              <Route path="/product/:id" component={() => <ProductDetail product={products[0]} />} />
+              <Route path="/search" component={() => <Search products={products} />} />
+              <Route path="/cart" component={() => <CartPage cartItems={cartItems} />} />
+              */}
+              <Route path="/" element={<Home products={products} addToCart={addToCart} />} />
+              <Route path="/home" element={<Home products={products} addToCart={addToCart} />} />
+              {/*<Route path="/products/:id" element={<ProductDetail products={products} />} /> */}
+              <Route path="/product/:id" element={<ProductDetail addToCart={addToCart} />} />
+              <Route path="/search" element={<Search products={products} addToCart={addToCart} />} />
+              {/* <Route path="/cart" component={() => <CartPage cartItems={cartItems} removeFromCart={removeFromCart} />} /> */}
+              <Route path="/cart" element={<CartPage cartItems={cartItems} removeFromCart={removeFromCart} />} />
+              <Route path="/checkout" element={<Checkout cartItems={cartItems} clearCart={clearCart} />} />
+              <Route path="/thankyou" element={<ThankYou />} />
+              <Route path="/signin" element={<SignUpForm />} />
+              <Route path="/signup" element={<LogInForm />} />
+            </Routes>
+        </div>
+      </Router>
+
   );
 };
 

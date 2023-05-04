@@ -1,4 +1,6 @@
 import { NavLink } from 'react-router-dom';
+// import { auth } from '../firebase';
+import LogOutButton from './LogOutButton';
 
 const Navigation = () => {
     return (
@@ -23,6 +25,21 @@ const Navigation = () => {
                     <NavLink to="/checkout" activeClassName="active">
                         Checkout
                     </NavLink>
+                </li>
+                {/* Tempoary */}
+                <li>
+                    <NavLink to="/signup" activeClassName="active">
+                        Sign up
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/login" activeClassName="active">
+                        Log in
+                    </NavLink>
+                </li>
+                <li>
+                    {/* <button onClick={() => auth.signOut()}>Sign Out</button> */}
+                    <LogOutButton />
                 </li>
             </ul>
         </nav>
