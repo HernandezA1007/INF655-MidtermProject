@@ -12,6 +12,8 @@ The project demonstrates the use of React Hooks, state management, conditional r
 - View product details
 - Add products to cart
 - Checkout submission
+![UT7pvgG](https://user-images.githubusercontent.com/112008621/236878272-c6805c1b-b63b-4aff-88df-3a3dba887c9f.png)
+![SfrW3PS](https://user-images.githubusercontent.com/112008621/236878297-b10981bf-fbdc-42db-a111-83636bda907c.png)
 
 -------------------------------------------------------------------------------------------------
 
